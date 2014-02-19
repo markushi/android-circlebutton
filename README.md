@@ -5,6 +5,8 @@ Circle button widget for Android
 
 ![Button Example](example/example.gif)
 
+[Download an example apk](example/example.apk)
+
 Example Usage:
 ```
 <FrameLayout
