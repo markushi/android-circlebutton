@@ -3,6 +3,8 @@ android-circlebutton
 
 Circle button widget for Android
 
+![Button Example](example/example.gif)
+
 Example Usage:
 ```
 <FrameLayout
