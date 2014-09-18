@@ -19,8 +19,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="8dip"
             android:src="@drawable/ic_action_tick"
-            app:cb_color="#99CC00"
-            app:cb_pressed_ring_width="8dip" />
+            app:cb_color="#99CC00" />
 
         <at.markushi.ui.CircleButton
             android:id="@+id/button1"
@@ -30,8 +29,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="8dip"
             android:src="@drawable/ic_action_tick"
-            app:cb_color="#FFBB33"
-            app:cb_pressed_ring_width="8dip" />
+            app:cb_color="#FFBB33" />
 
         <at.markushi.ui.CircleButton
             android:id="@+id/button2"
@@ -41,8 +39,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="8dip"
             android:src="@drawable/ic_action_tick"
-            app:cb_color="#FF4444"
-            app:cb_pressed_ring_width="8dip" />
+            app:cb_color="#FF4444" />
 
     </LinearLayout>
 </FrameLayout>

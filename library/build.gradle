@@ -3,9 +3,11 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.8.+'
+        classpath 'com.android.tools.build:gradle:0.12.+'
     }
 }
+
+apply plugin: 'android-sdk-manager'
 apply plugin: 'android-library'
 
 repositories {
@@ -14,9 +16,16 @@ repositories {
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19.0.1"
+    buildToolsVersion "19.1"
+
+    defaultConfig {
+        versionName = VERSION_NAME
+        versionCode = VERSION_CODE
+    }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
 }
+
+apply from: '../maven.gradle'

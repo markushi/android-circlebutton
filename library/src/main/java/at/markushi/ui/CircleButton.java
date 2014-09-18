@@ -9,6 +9,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.widget.ImageView;
+
 import at.markushi.circlebutton.R;
 
 public class CircleButton extends ImageView {
@@ -127,7 +128,7 @@ public class CircleButton extends ImageView {
 		if (attrs != null) {
 			final TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CircleButton);
 			color = a.getColor(R.styleable.CircleButton_cb_color, color);
-			pressedRingWidth = (int) a.getDimension(R.styleable.CircleButton_cb_pressed_ring_width, pressedRingWidth);
+			pressedRingWidth = (int) a.getDimension(R.styleable.CircleButton_cb_pressedRingWidth, pressedRingWidth);
 			a.recycle();
 		}
 

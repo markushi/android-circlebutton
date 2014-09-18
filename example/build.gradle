@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.8.+'
+        classpath 'com.android.tools.build:gradle:0.12.+'
     }
 }
 apply plugin: 'android'
@@ -14,7 +14,7 @@ repositories {
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19.0.1"
+    buildToolsVersion "19.1"
 
     defaultConfig {
         minSdkVersion 11
@@ -32,7 +32,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:+'
-    compile project(':library')
     compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    compile 'com.android.support:appcompat-v7:19.1.0'
+    compile 'com.github.markushi:circlebutton:1.1'
 }
