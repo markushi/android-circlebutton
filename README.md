@@ -7,6 +7,21 @@ Circle button widget for Android
 
 [Download an example apk](example/example.apk)
 
+Gradle dependency  ```build.gradle```
+
+```
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+...
+
+dependencies {
+    compile 'com.github.markushi:circlebutton:1.1'
+}
+```
+
 Example Usage:
 ```
 <FrameLayout
@@ -20,7 +35,7 @@ Example Usage:
 		android:layout_height="64dip"
 		android:src="@drawable/ic_action_tick"
 		app:cb_color="#99CC00"
-		app:cb_pressed_ring_width="8dip" />
+		app:cb_pressedRingWidth="8dip" />
 
 </FrameLayout>
 ```
