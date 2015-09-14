@@ -1,3 +1,10 @@
+DEPRECATED
+====================
+This library is deprecated and no new development is taking place.
+Consider using a FAB(Floating action button) instead.
+
+E.g. the [Android Design Support Library](http://developer.android.com/tools/support-library/index.html) offers a [FAB](http://developer.android.com/reference/android/support/design/widget/FloatingActionButton.html) implementation.
+
 android-circlebutton
 ====================
 
